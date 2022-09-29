@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Días inhabiles</title>
+    <link rel="icon" href="assets/img/NonWork.png">
+</head>
+
+<body>
+    <section class="container-sm" style="margin: 0 auto;">
+        <form class="row justify-content-center">
+            <div class="col-sm-3 mt-3 text-center align-self-center">
+                <label for="day" class="form-label">Día</label>
+                <input type="text" id="day" class="form-control text-center" required>
+            </div>
+            <div class="col-sm-3 mt-3 text-center align-self-center">
+                <label for="day" class="form-label">Mes</label>
+                <input type="text" id="month" class="form-control text-center" required>
+            </div>
+            <div class="col-sm-3 mt-3 text-center align-self-center">
+                <label for="day" class="form-label">Año</label>
+                <input type="text" id='year' class="form-control text-center" required>
+            </div>
+            <div class="col-sm-8 mt-3 align-self-center text-center">
+                <button type="submit" id="calculate" class="btn btn-primary w-100">
+                    Calcular
+                </button>
+            </div>
+            <div class="col-sm-8 mt-3 align-self-center">
+                <input type="text" id="result" class="form-control text-center" disabled>
+            </div>
+        </form>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src=funciones.js""></script>
+</body>
+
+</html>
