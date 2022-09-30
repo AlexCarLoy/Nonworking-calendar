@@ -1,2 +1,2 @@
 # Nonworking-calendar
-Calendario de dias inhabiles.
+Calendario de dias no laborables.
