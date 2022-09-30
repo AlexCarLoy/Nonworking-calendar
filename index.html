@@ -10,14 +10,20 @@
     <link rel="icon" href="assets/img/NonWork.png">
 </head>
 <body>
-    <div class="container w-75 border border-2 rounded-3 my-5 p-3">
 
-        <h6>Calendario Gregoriano</h6>
+    <div class="container w-75 border border-2 rounded-3 my-5 p-3">
+        <h3>Calendario Gregoriano</h6>
+        <p>Este es un asistente que te ayudara a saber que dia es la fecha de tu interes, tambien si es un dia laboral o es un fin de semana.</p>
+        <strong>Instrucciones:</strong>
+        <em>Solo escribe la feha que deseas consultar y despues presiona el boton.</em>
+    </div>
+
+    <div class="container w-75 border border-2 rounded-3 my-5 p-3">
 
         <p id="textError" class="text-danger fw-bold"></p>
 
         <div class="container row my-2 align-items-center mx-auto gap-2">
-            <label class="col-lg-3">FECHA</label>
+            <label class="col-lg-3">Ingrese o seleccione la fecha a consultar:</label>
             <input id="inputDay" class="col-lg form-control" month="day" placeholder="29" type="text" required/>
             <select id="inputMonth" class="col-lg form-control" required>
                 <option value="0">Enero</option>
@@ -38,7 +44,7 @@
         </div>
 
         <div class="text-center">
-            <button id="btnCalculate" class="btn btn-outline-primary">
+            <button id="btnCalculate" class="btn btn-secondary">
                 Calcular
             </button>
         </div>

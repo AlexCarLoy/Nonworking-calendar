@@ -1,0 +1,14 @@
+h3, p, div{
+    text-align: center;
+}
+html, body{
+    background-color: rgb(93, 93, 93);
+}
+div{
+    border-width: medium;
+    background-color: rgb(0, 165, 242);
+    border-color:  rgb(0, 85, 242);
+}
+input{
+    background-color: rgb(0, 77, 242);
+}

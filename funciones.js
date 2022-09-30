@@ -32,8 +32,8 @@ $btnCalculate.addEventListener('click', () => {
     const isWorkingDay = itsWorkingDay(date.getDay());
     const weekDay = WEEKDAYS[date.getDay()];
 
-    $inputLeapYear.value = leapYear ? 'Año bisiesto' : 'Año normal';
-    $inputWorkingDay.value = `${weekDay}, ${isWorkingDay ? 'día laborable' : 'fin de semana'}`;
+    $inputLeapYear.value = leapYear ? 'Año bisiesto' : 'Año regular';
+    $inputWorkingDay.value = `${weekDay}, ${isWorkingDay ? 'día laboral' : 'fin de semana'}`;
 });
 
 function isLeapYear(year) {
